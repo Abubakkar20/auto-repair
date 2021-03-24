@@ -1,0 +1,432 @@
+/* Website Description bellow */
+
+/*******************
+
+Author: Abu Bakkar
+date: 22/03/21
+Website Name: Auto Repair service website;
+
+*******************/
+/* font-family: 'Noto Serif SC', serif;
+font-family: 'Poppins', sans-serif; */
+/****************
+    INDEX CSS
+    ========
+    0. GOOGLE FONTS
+    1.COMMON CSS
+    2.REUSABLE CSS
+    3.NAVBAR SECTION
+    4.HEADER SECTION
+    5.CART SECTION
+    6.ABOUT SECTION
+    7.SERVICE SECTION
+    8.CHOOSE SECTION
+    9.PORTFOLIO SECTION
+    10.QUOTE SECTION
+    11.TESTIMONIAL SECTION
+    12.COMPANY LOGO SECTION
+***************/
+
+/****************
+ COMMON CSS
+***************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    color: #000;
+    background-color: #fff;
+    line-height: 1.3;
+     text-rendering: optimizeLegibility;
+     font-size: 62.5%;
+}
+/****************
+ REUSABLE CSS
+***************/
+.row{
+    width: 120rem;
+    margin: auto;
+}
+h1, h2, h3, h4 {
+        font-family:'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    h1{
+        font-size: 10rem;
+        color: #ffff;
+        font-weight: 800;
+       padding-top: 100px;
+    }
+p{
+
+    font-family:'Noto Serif SC', serif;
+    font-size:1.6rem;
+    font-weight: 400;
+}
+a:link{
+    text-decoration: none;
+}
+/****************
+ NAVBAR SECTION
+***************/
+nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.uk-nav > li > a {
+    font-size: 1.6rem;
+}
+.uk-nav > li > a:hover{
+    color: red;
+}
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+    font-size: 1.4rem;
+}
+.uk-navbar-item, .uk-navbar-nav > li > a:hover, .uk-navbar-toggle{
+    color:red;
+}
+.uk-search-input{
+    font-size: 1.5rem;
+}
+ .uk-search, .uk-search-icon-flip{
+    border: .1rem solid red;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: none;
+}
+/****************
+ HEADER SECTION
+***************/
+#header{
+    background: url("../img/bg1.jpg") no-repeat center / cover;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 80rem;
+}
+.header-btn{
+   padding-bottom: 20rem;
+   padding-top: 3rem;
+}
+.header-btn button{
+    border: 2px solid #ffff;
+    padding: 2rem 5rem;
+    margin-left: .9rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.header-btn button:hover:nth-child(1){
+    background:transparent;
+}
+.header-btn button:hover:nth-child(2){
+    background:#000;
+}
+.header-btn a{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.header-btn button:nth-child(1){
+    background-color: #f22f11;
+}
+.uk-link, a {
+    color:#f22f11;
+}
+.header-btn button:nth-child(2){
+    background-color: #ffff;
+}
+/****************
+ CART SECTION
+***************/
+#cart{
+    margin-top: -10rem;
+}
+.uk-card img{
+    width: 6rem;
+    height:6rem;
+}
+.uk-card h3{
+        font-size: 2.5rem;
+        color: #ffff;
+        font-weight: bold;
+}
+.uk-card-body {
+    padding: 6rem 3rem;
+}
+/****************
+ ABOUT SECTION
+***************/
+#about{
+    padding-top: 13rem;;
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20rem;;
+}
+.about-img img{
+    margin-left: -6rem;
+}
+.about-text{
+    padding-top: 15rem;
+}
+.about-text h4{
+    color: #f22f11;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.about-text h2{
+    font-size: 5rem;
+    font-weight: 1000;
+    color:#000
+}
+.about-text p{
+    font-size: 1.6rem;
+    color: gray;
+    line-height: 1.5;
+}
+.about-text ul li {
+    font-size: 2.2rem;
+    color: gray;
+    line-height: 1.8;
+}
+.uk-button-danger{
+    background-color: #ffff;
+    color: #f22f11;
+    padding: .8rem 6rem;
+    font-size: 1.8rem;
+    border: .2rem solid #f22f11;
+    border-radius: .5rem;
+    font-weight: bold;
+    transition: 1.5s;
+    text-transform:capitalize;
+}
+/****************
+ SERVICES SECTION
+***************/
+#service{
+    background-color: rgb(238, 235, 235)}
+
+.service-car{
+    margin-top: 5rem;
+    padding-bottom: 15rem;;
+}
+#service .uk-card-body{
+    padding: 4rem 2rem;;
+}
+.text h4{
+    color: #f22f11;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.service-text{
+    padding-top: 12rem;
+    position: relative;
+}
+.text h2{
+    font-size: 5rem;
+    font-weight: 1000;
+    color:#000;
+    margin-top: 0;
+}
+.text-btn{
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+}
+/****************
+ CHOOSE SECTION
+***************/
+#choose{
+    background-color: rgba(0,0,0, 0.9);
+    background-image: url("../img/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10rem;
+}
+/****************
+ PORTFOLIO SECTION
+***************/
+.uk-card-media-top img {
+    width: 100%;
+    height: 100%;
+   cursor: pointer;
+}
+.portfolio-cart {
+    padding-top: 5rem;
+    padding-bottom: 2rem;;
+}
+.uk-card-body h5{
+    color:#f22f11;
+    font-size:1.6rem;
+    font-weight: bold;
+}
+.uk-button-link{
+    color:#f22f11;
+    font-size:1.6rem;
+    font-weight: bold;
+}
+.uk-card{
+   border-bottom: .4rem solid darkblue;
+}
+.uk-card:hover{
+    border-bottom: .4rem solid #f22f11;
+}
+/****************
+QUOTE SECTION
+***************/
+#quote{
+    background-color: rgba(0,0,0, 0.9);
+    background-image: url("../img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    margin-top: 8rem;;
+}
+.quote-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7rem;
+}
+.quote-grid-item h4{
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.quote-grid-item h2{
+    color: #fff;
+    font-size: 5rem;
+   font-weight: bold;
+}
+.quote-grid-item p{
+    color: #fff;
+}
+.quote-grid-item h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.quote-grid-item form{
+    background-color: #fff;
+    padding: 7rem 5rem;
+}
+.uk-input, .uk-select, .uk-textarea, .uk-button{
+    font-size: 1.4rem;
+}
+/****************
+TESTIMONIAL SECTION
+***************/
+
+.style{
+    width: 100%;
+    height: 30rem !important;
+    /* margin: auto; */
+    /* margin-top: 200px; */
+}
+.test-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+.style ul li h2{
+    color: green;
+    font-size: 50px;
+}
+.style ul li p{
+    font-size: 25px;
+    color:black;
+ }
+ .test-grid-item h4{
+     color:#f22f11;
+     font-size: 2rem;
+     text-transform: uppercase;
+ }
+ .test-grid-item h2{
+     font-size: 5rem;
+     font-weight: bold;
+ }
+ .slide-img img{
+     width: 100%;
+     height: 100%;
+ }
+ .slide{
+     padding-bottom: 10rem;;
+ }
+ /******************
+COMPANY LOGO SECTION
+********************/
+#logo {
+    background-color: rgb(245, 239, 239);
+    padding: 7rem 0;
+    margin-top: 7rem;;
+}
+.logo-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+.logo-grid-item img{
+    width: 100%;
+    height: 100%;
+}
+ /******************
+FOOTER LOGO SECTION
+********************/
+#footer {
+    background-color: #000;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 7rem 1rem;
+    margin-top: 6rem;
+}
+.one img{
+    width:  24rem;
+   background-color: #000;
+}
+.footer-grid-item{
+    color: #fff;
+    line-height: 1.6;
+}
+.socil-icon ion-icon{
+    background-color: #f22f11;
+    color:#fff;
+    font-size: 2.5rem;
+}
+.footer-grid-item h4{
+    color: #f22f11;
+    font-size:2rem;
+    text-transform: uppercase;
+}
+.footer-grid-item ul li{
+    font-size: 1.8rem;
+    line-height: 1.9;
+    color: #ffff;
+}
+.footer-grid-item ul li a:hover{
+    color: #ffff;
+}
+.contact ul li{
+    list-style-type:none;
+}
+.copy h6{
+    color: #fff;
+    font-size:1.4rem;
+    padding: 4rem;
+}
+
+
+
+
+

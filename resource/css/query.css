@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1200px){
+    .row{
+        padding: 0 2rem;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .cart-grid{
+        padding-right: 16rem;;
+        width:100%;
+    }
+    .about-text h2{
+        font-size: 3.5rem !important;
+        padding-right: 14rem;
+    }
+    .about-text p{
+       margin-right: 14rem !important;
+    }
+    .text-btn{
+        padding-right: 14rem
+    }
+    .portfolio-cart{
+        padding-right: 16rem
+    }
+    .uk-grid{
+        width:100%;
+    }
+    .slide{
+        padding-right:17rem !important;
+    }
+    .style{
+        width:100%;
+    }
+  .logo-grid{
+      padding-right: 16rem;
+      width:100%;
+      grid-template-columns: 1fr 1fr 1fr 1fr!important;
+  }
+  .footer-grid{
+   width: 100%;
+   padding-right: 17rem!important;
+  }
+  
+}
+@media only screen and (max-width: 900px){
+    .cart-grid{
+        margin-right: 20rem;;
+        width:100%;
+    }
+}
